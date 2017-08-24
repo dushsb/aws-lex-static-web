@@ -1,0 +1,20 @@
+{
+  "cognito": {
+    "poolId": "us-east-1:8f22616d-57db-40dd-ac83-1a046ad20f72"
+  },
+  "lex": {
+    "botName": "LibertyChatBot",
+    "initialText": "You can ask me for help find and download any document. Just type \"download a document\" or click on the mic and say it.",
+    "initialSpeechInstruction": "Say 'Hi' to get started."
+  },
+  "polly": {
+    "voiceId": "Salli"
+  },
+  "ui": {
+    "parentOrigin": "",
+    "toolbarTitle": "LibertyChatBot"
+  },
+  "recorder": {
+    "preset": "speech_recognition"
+  }
+}

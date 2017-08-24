@@ -1,0 +1,25 @@
+{
+  "iframeOrigin": "",
+  "loadIframeMinimized": false,
+  "aws": {
+    "cognitoPoolId": "us-east-1:8f22616d-57db-40dd-ac83-1a046ad20f72",
+    "region": "us-east-1"
+  },
+  "iframeConfig": {
+    "lex": {
+      "botName": "LibertyChatBot",
+      "initialText": "You can ask me for help finding and downloading documents. Just type \"download a document\" or click on the mic and say it.",
+      "initialSpeechInstruction": "Say 'Buy Flowers' to get started."
+    },
+    "ui": {
+      "toolbarTitle": "Liberty ChatBot",
+      "pushInitialTextOnRestart": false
+    },
+    "polly": {
+      "voiceId": "Salli"
+    },
+    "recorder": {
+      "preset": "speech_recognition"
+    }
+  }
+}
